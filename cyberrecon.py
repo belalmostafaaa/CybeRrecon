@@ -56,7 +56,7 @@ def check_dependencies():
         'dnspython': 'dns',
         'requests': 'requests',
         'python-nmap': 'nmap',
-        'pywhois': 'whois'
+        
     }
     missing = []
     for pip_name, import_name in required_packages.items():
